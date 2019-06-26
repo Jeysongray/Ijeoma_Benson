@@ -14,6 +14,7 @@ body {
 .bottom-container {/* width: 200px;
   height: 200px; */
 background-color: #66BFBF;
+padding: 50px 0 60px;
 }
 
 .myButton {
@@ -223,4 +224,12 @@ Pseudo scrollbar-track element {
   background-image: linear-gradient(#c1f6e7, yellow);
   padding-top: 100px;
   position: relative;
+}
+
+.dot {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
 }
